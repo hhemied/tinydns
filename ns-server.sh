@@ -79,7 +79,7 @@ echo "Write RR to $configFile"
 cat > $configFile <<EOF
 \$TTL    600
 @   IN SOA  dns.lab.local. root.mail.lab.local. (
-                     2019020700   ; serial
+                     2019020800   ; serial
                      1800  ; refresh
                      1800  ; retry
                      604800  ; expire
